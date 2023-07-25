@@ -1,0 +1,86 @@
+.image {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+}
+
+.info {
+  background-color: lightgray; 
+  padding: 30px;
+  text-align: center;
+}
+
+.info-content h2 {
+  font-size: 36px;
+  color: blue; 
+  margin-bottom: 10px;
+}
+
+.info-content p {
+  font-size: 18px;
+  color: darkgray; 
+}
+
+.info-content button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: dodgerblue;
+  color: white; 
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.events-news {
+  padding: 30px;
+}
+
+.events-news h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.events-news ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.events-news li {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+
+.social {
+  padding: 30px;
+}
+
+.social h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.section-content {
+  display: flex;
+  justify-content: center;
+}
+
+.social .section-content a {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 24px;
+  color: blue; 
+  transition: color 0.3s ease;
+}
+
+.social .section-content a:hover {
+  color: red; 
+}
